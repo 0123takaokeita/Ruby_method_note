@@ -19,6 +19,9 @@ p str[-4..-1]
 
 # 置換する。AをBに置換する。
 p str.gsub("b","a")
+p str
+p str.gsub!('b','a')
+p str
 # "aacdefghijk"
 
 # 指定した文字を切り出す。
