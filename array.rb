@@ -41,3 +41,11 @@ p array.count(1)
 NewArray = array.reverse
 p array.sort
 
+
+ary1 = (1..5).to_a
+ary2 = (2..5).to_a
+ary3 = (3..5).to_a
+
+ary1.product(ary2, ary3) do |i, j, k|
+    p [i, j, k]
+end
