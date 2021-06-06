@@ -21,4 +21,13 @@ p array.unshift(0)
 array.shift
 p array
 
+# 降順に変換
+p array.reverse
+
+# 重複の削除
+p array << 1
+p array.uniq
+
+# 同じ処理を繰り返す
+p array.map(&:to_s)
 
